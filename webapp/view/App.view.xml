@@ -1,0 +1,19 @@
+<mvc:View
+   controllerName="project1.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+
+   <Button 
+       text="say hi"
+       press=".onShowHello"
+    />
+
+    <Input 
+       value="{/recipeint/name}"
+       description="Hello {/recipeint/name}"
+       valueLiveUpdate="true"
+       width="60%"      
+
+    />
+
+</mvc:View>
